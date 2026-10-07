@@ -40,7 +40,7 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 
 **Prueba de ejecución:**
 
-https://github.com/user-attachments/assets/a62de731-09e7-478e-9fd5-8cbd2af4275b
+./gifs/ejercicio_1.gif
 
 <a id="ejercicio-2"></a>
 ## Ejercicio 2: Operaciones con vectores
