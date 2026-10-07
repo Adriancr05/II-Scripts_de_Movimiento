@@ -40,7 +40,7 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 
 **Prueba de ejecución:**
 
-[](./gifs/ejercicio_1.gif)
+[BROOOO](./gifs/ejercicio_1.gif)
 
 <a id="ejercicio-2"></a>
 ## Ejercicio 2: Operaciones con vectores
