@@ -192,11 +192,11 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 
 **Resultados de cada situación:**
 
-- **a) Duplicar las coordenadas de la dirección:** el desplazamiento por frame se duplica, ya que se multiplica por el vector completo. El cubo recorre el doble de distancia en la misma dirección y se mueve el doble de rápido.
-- **b) Duplicar la velocidad manteniendo la dirección:** el resultado es el mismo que en el caso anterior, porque el desplazamiento es el producto `moveDirection * speed`. Ambas magnitudes se combinan multiplicándose, así que duplicar cualquiera de las dos duplica el avance.
-- **c) Velocidad menor que 1:** el cubo avanza menos de una unidad por frame y el movimiento es más lento y suave. Con valores muy pequeños (como `0.01`) resulta cómodo de observar a 60 FPS; con velocidades mayores que 1 el cubo sale de la escena rápidamente.
-- **d) Posición del cubo con y > 0:** la altura inicial no cambia el comportamiento del movimiento, porque `Translate` desplaza el objeto relativamente a su posición actual. El cubo se mantiene a esa altura, sin caer, ya que no hay `Rigidbody` ni gravedad, y solo cambia de altura si `moveDirection` tiene componente `y`.
-- **e) Sistema de referencia local frente a mundial:** con `Space.Self` la dirección se interpreta en los ejes locales del cubo, así que si el cubo está rotado se mueve hacia donde apuntan sus propios ejes. Con `Space.World` se usan los ejes globales de la escena y la rotación del cubo no afecta a la trayectoria. Si el cubo no está rotado, ambos modos producen el mismo movimiento.
+**a) Duplicar las coordenadas de la dirección:** el desplazamiento por frame se duplica, ya que se multiplica por el vector completo. El cubo recorre el doble de distancia en la misma dirección y se mueve el doble de rápido.  
+**b) Duplicar la velocidad manteniendo la dirección:** el resultado es el mismo que en el caso anterior, porque el desplazamiento es el producto `moveDirection * speed`. Ambas magnitudes se combinan multiplicándose, así que duplicar cualquiera de las dos duplica el avance.  
+**c) Velocidad menor que 1:** el cubo avanza en sentido contrario.  
+**d) Posición del cubo con y > 0:** la altura inicial no cambia el comportamiento del movimiento, porque `Translate` desplaza el objeto relativamente a su posición actual. El cubo se mantiene a esa altura, sin caer, ya que no hay `Rigidbody` ni gravedad, y solo cambia de altura si `moveDirection` tiene componente `y`.  
+**e) Sistema de referencia local frente a mundial:** se puede ver como varía ligeramente la dirección de movimiento del cubo.
 
 **Prueba de ejecución:**
 
