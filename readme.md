@@ -60,7 +60,7 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 
 **Prueba de ejecución:**
 
-./docs/demo.gif
+![](./gifs/ejercicio_2.gif)
 
 <a id="ejercicio-3"></a>
 ## Ejercicio 3: Posición de la esfera
@@ -74,7 +74,7 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 
 **Prueba de ejecución:**
 
-https://github.com/user-attachments/assets/31b8e120-5076-402c-8c3d-801618fe077b
+![](./gifs/ejercicio_3.gif)
 
 <a id="ejercicio-4"></a>
 ## Ejercicio 4: Distancia del cubo y el cilindro a la esfera
@@ -90,4 +90,4 @@ https://github.com/user-attachments/assets/31b8e120-5076-402c-8c3d-801618fe077b
 
 **Prueba de ejecución:**
 
-https://github.com/user-attachments/assets/8039c26c-3639-47c5-b4a2-8efa6dfe27ff
+![](./gifs/ejercicio_4.gif)
