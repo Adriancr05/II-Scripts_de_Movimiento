@@ -28,7 +28,7 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 <a id="ejercicio-1"></a>
 ## Ejercicio 1: Color aleatorio cada N frames
 
-**Script:** `ChangeColor.cs`
+**Script:** [`ChangeColor.cs`](./scripts/ChangeColor.cs)
 
 **Qué hace:** inicializa un vector de 3 posiciones con valores entre 0.0 y 1.0, que se interpreta como color RGB. Cada `waitingFrames` frames elige una posición aleatoria del vector, le asigna un nuevo valor aleatorio y aplica el color resultante al material del objeto.
 
@@ -45,7 +45,7 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 <a id="ejercicio-2"></a>
 ## Ejercicio 2: Operaciones con vectores
 
-**Script:** `VectorOperations.cs`
+**Script:** [`VectorOperations.cs`](./scripts/VectorOperations.cs)
 
 **Qué hace:** declara dos `Vector3` públicos cuyos componentes se configuran desde el inspector y muestra por consola:
 
@@ -65,7 +65,7 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 <a id="ejercicio-3"></a>
 ## Ejercicio 3: Posición de la esfera
 
-**Script:** `VectorOperations.cs`
+**Script:** `VectorOperations.cs`](./scripts/VectorOperations.cs)
 
 **Qué hace:** muestra por consola el vector con la posición de la esfera.
 
@@ -79,7 +79,7 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 <a id="ejercicio-4"></a>
 ## Ejercicio 4: Distancia del cubo y el cilindro a la esfera
 
-**Script:** `VectorOperations.cs`
+**Script:** [`VectorOperations.cs`](./scripts/VectorOperations.cs)
 
 **Qué hace:** muestra en consola la distancia a la que están el cubo y el cilindro respecto a la esfera.
 
