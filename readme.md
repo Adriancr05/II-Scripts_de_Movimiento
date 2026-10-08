@@ -12,10 +12,34 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 
 ```
 .
+├── docs
+│   └── Ejercicios Scripts - Movimiento.pdf
+├── gifs
+│   ├── ejercicio_1.gif
+│   ├── ejercicio_10.gif
+│   ├── ejercicio_11.gif
+│   ├── ejercicio_12.gif
+│   ├── ejercicio_13.gif
+│   ├── ejercicio_2.gif
+│   ├── ejercicio_3.gif
+│   ├── ejercicio_4.gif
+│   ├── ejercicio_5.gif
+│   ├── ejercicio_6.gif
+│   ├── ejercicio_7.gif
+│   ├── ejercicio_8.gif
+│   └── ejercicio_9.gif
 ├── readme.md
-├── ChangeColor.cs
-├── DistanceToObjects.cs
-└── VectorOperations.cs
+└── scripts
+    ├── ChangeColor.cs
+    ├── CubeChaser.cs
+    ├── CubeConstantMovement.cs
+    ├── CubeMover.cs
+    ├── CubeTurner.cs
+    ├── DistanceToObjects.cs
+    ├── PositionSetter.cs
+    ├── SpeedDebugger.cs
+    ├── SphereMover.cs
+    └── VectorOperations.cs
 ```
 
 ## Índice
