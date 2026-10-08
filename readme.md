@@ -89,7 +89,7 @@ Repositorio con los scripts desarrollados para los ejercicios de movimiento en U
 <a id="ejercicio-3"></a>
 ## Ejercicio 3: Posición de la esfera
 
-**Script:** `VectorOperations.cs`](./scripts/VectorOperations.cs)
+**Script:** [`VectorOperations.cs`](./scripts/VectorOperations.cs)
 
 **Qué hace:** muestra por consola el vector con la posición de la esfera.
 
